@@ -1,0 +1,29 @@
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         201G  184G   17G  92% /usr/lib/wsl/drivers
+/dev/sdc       1007G  2.1G  954G   1% /
+none            3.8G   80K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.2M  3.8G   1% /init
+none            3.8G  516K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             201G  184G   17G  92% /mnt/c
+D:\             275G   19G  257G   7% /mnt/d
+tmpfs           762M   16K  762M   1% /run/user/1000
+Top Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+reshma      2078 83.3  0.1  18192 12736 ?        D    22:00   0:00 python3 /mnt/c/Users/Reshma/project1/check_github.py
+root           1  0.0  0.1  21788 12920 ?        Ss   20:44   0:00 /sbin/init
+root          52  0.0  0.2  50436 16520 ?        S<s  20:44   0:00 /usr/lib/systemd/systemd-journald
+root         319  0.0  0.0   2620   124 ?        S    20:44   0:00 /init
+reshma       320  0.0  0.0   6332  5604 pts/0    Ss+  20:44   0:00 -bash
+root          79  0.0  0.0  23992  5936 ?        Ss   20:44   0:00 /usr/lib/systemd/systemd-udevd
+root         175  0.0  0.2 1755840 16124 ?       Ssl  20:44   0:00 /usr/libexec/wsl-pro-service -vv
+root         172  0.0  0.1  17976  8188 ?        Ss   20:44   0:00 /usr/lib/systemd/systemd-logind
+syslog       214  0.0  0.0 222508  5236 ?        Ssl  20:44   0:00 /usr/sbin/rsyslogd -n -iNONE
