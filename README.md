@@ -1,3 +1,32 @@
+# System Monitoring and Backup Configuration
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Task 1: System Monitoring Setup](#task-1-system-monitoring-setup)
+    - [Step 1: Install Monitoring Tools](#step-1-install-monitoring-tools)
+    - [Step 2: Disk Usage Monitoring](#step-2-disk-usage-monitoring)
+    - [Step 3: Resource-Intensive Processes](#step-3-resource-intensive-processes)
+    - [Step 4: Automate System Metrics Logging](#step-4-automate-system-metrics-logging)
+3. [Task 2: User Management and Access Control](#task-2-user-management-and-access-control)
+    - [Step 1: Create User Accounts](#step-1-create-user-accounts)
+    - [Step 2: Create Isolated Directories](#step-2-create-isolated-directories)
+    - [Step 3: Implement Password Policies](#step-3-implement-password-policies)
+4. [Task 3: Backup Configuration for Web Servers](#task-3-backup-configuration-for-web-servers)
+    - [Step 1: Create Backup Scripts](#step-1-create-backup-scripts)
+    - [Step 2: Schedule Backups with Cron](#step-2-schedule-backups-with-cron)
+    - [Step 3: Verify Backup Integrity](#step-3-verify-backup-integrity)
+5. [Challenges Faced](#challenges-faced)
+6. [Conclusion](#conclusion)
+7. [Submission](#submission)
+
+---
+
+## Introduction
+
+This document outlines the implementation steps for system monitoring, user management, and backup configuration in a Linux-based environment. It covers the tasks performed, including installation, configuration, and automation for efficient system management.
+
+---
+
 # Task 1: System Monitoring Setup
 
 ## Step 1: Install Monitoring Tools
@@ -246,6 +275,16 @@ Replace `<date>` with the actual date of the backup file.
 ![Screenshot 2024-12-29 030756](https://github.com/user-attachments/assets/c15b042a-2cfe-4a9e-a12c-7e3dc9d34b46)
 ![Screenshot 2024-12-29 032641](https://github.com/user-attachments/assets/f08fc388-7363-4389-a7dd-364338424691)
 <img width="722" alt="image" src="https://github.com/user-attachments/assets/582d1404-dfd7-4429-809f-f9403f5ed17f" />
+
+### Challenges Faced
+Permissions: Ensuring that the backup directories had the appropriate permissions to prevent unauthorized access was crucial.
+Cron Scheduling: Ensuring the cron jobs ran as expected was challenging, especially when dealing with multiple user-specific tasks.
+Password Policy Configuration: Fine-tuning the password policy settings to meet organizational requirements while ensuring user compliance.
+### Conclusion
+The system monitoring, user management, and backup configuration were successfully implemented according to best practices. Regular monitoring and backup processes will help maintain server health, ensure data security, and prevent data loss. The automation via cron ensures that these tasks are performed without manual intervention, saving time and reducing human error.
+
+### Author 
+Reshma Navale
 
 
 
